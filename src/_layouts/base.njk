@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ title }}</title>
+     <link rel="stylesheet" type="text/css" href="/assets/main.css" />
+     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+  </head>
+  <body class ="font-body" >
+    {% include "../_includes/components/navigation.njk" %}
+    <main class="p-12 prose mx-auto">
+      <h2 class="text-3xl mb-8">{{title}}</h2>
+      {{ content | safe }}
+    </main>
+    <script src="/assets/main.js"></script>
+  </body>
+</html>
