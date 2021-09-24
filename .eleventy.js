@@ -1,4 +1,4 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+// const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownItLinkAttr = require('markdown-it-link-attributes');
 const markdownIt = require("markdown-it");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -8,7 +8,7 @@ let Nunjucks = require("nunjucks");
 
 module.exports = function (eleventyConfig) {
 
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  // eleventyConfig.addPlugin(eleventyNavigationPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
 //   eleventyConfig.addPlugin(pageAssetsPlugin, {
 //     mode: "parse",
