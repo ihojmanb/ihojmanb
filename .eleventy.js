@@ -117,9 +117,15 @@ module.exports = function (eleventyConfig) {
   );
   eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
-
-
-
+  // eleventyConfig.addWatchTarget('./tailwind.config.js')
+  // eleventyConfig.addWatchTarget('./styles/main.css')
+  // eleventyConfig.setTemplateFormats([
+  //   "md",
+  //   "css", // css is not yet a recognized template extension in Eleventy
+  //   "png",
+  //   "jpg",
+  //   "jpeg"
+  // ]);
   return {
     dir: {
       input: "src",
