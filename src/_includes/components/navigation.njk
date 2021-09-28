@@ -9,7 +9,7 @@
   <ul>
     {% for entry in navPages %}
       <li class="inline">
-        <a href="{{ entry.url }}" class="text-sm py-1 px-2 rounded mr-4 inline-block
+        <a href="{{ entry.url | url }}" class="text-sm py-1 px-2 rounded mr-4 inline-block
                                  {{ ' underline-magenta' if entry.url in page.url
                                  else 'text-gray-700 hover:text-gray-900' }}">
           {{ entry.title }}
