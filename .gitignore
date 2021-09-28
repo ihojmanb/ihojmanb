@@ -1,3 +1,4 @@
 node_modules/
 # _site is where the static generated files are copied to
 _site/
+.vscode
