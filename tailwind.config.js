@@ -8,9 +8,13 @@ module.exports = {
     "./.eleventy.js",
     "./public/**/*.html",
     "./src/_includes/**/*.njk",
-    "./src/pages/**/*.njk",
+    "./src/pages/**/*.{njk, md}",
     "./src/index.njk",
-    "./src/**/*.{js,jsx,ts,tsx,vue}",
+    "./src/scripts/**/*.js",
+    "./src/styles/**/*.css",
+    "./src/tests/**/*.js",
+    "./src/index.njk",
+    "./src/**/*.js"
   ],
   theme: {
     extend: {
